@@ -10,7 +10,16 @@ $(document).ready(function(){
 		$(".FR").show();
 	}
 });
-function toggleFR()
+function toggleLang()
 {
-alert();	
+	if(document.getElementById("ENoption").checked)
+	{
+		$(".EN").show();
+		$(".FR").hide();
+	}
+	else
+	{
+		$(".EN").hide();
+		$(".FR").show();
+	}
 }

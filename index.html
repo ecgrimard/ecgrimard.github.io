@@ -2,28 +2,24 @@
 <html>
 <html>
 <head>
-
-  
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="style.css" rel="stylesheet" type="text/css">
-<link href="navbar.css" rel="stylesheet" type="text/css">
-<meta charset="utf-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="scripts.js"></script>
-  <title>ERIC GRIMARD</title>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="navbar.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<title>ERIC GRIMARD</title>
 </head>
 <body>
 <div class="container" id="main">
 	<div class="row">
-		<label>EN</label><input id="ENoption"type="radio" name="lang" checked="checked" select="toggleEN">
-		<label>FR</label><input id="FRoption"type="radio" name="lang" select="toggleFR">
+		<label>EN</label><input id="ENoption"type="radio" name="lang" checked="checked" onchange="toggleLang()">
+		<label>FR</label><input id="FRoption"type="radio" name="lang" onchange="toggleLang()">
 	</div>
 	<div class="row">
 		<div class="col-md-12 EN" id="title">
