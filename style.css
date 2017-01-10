@@ -1,0 +1,19 @@
+#main
+{
+	
+	height:100px;
+}
+#title
+{
+	background-image:url("nebula-banner.png");
+	height:100%;
+	width:100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align:right;
+	color:white;
+}
+#title h1, #title h4
+{
+	margin-right:5%;
+}
