@@ -3,9 +3,11 @@
 <html>
 <head>
 
-  <link href="style.css" rel="stylesheet" type="text/css">
+  
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="navbar.css" rel="stylesheet" type="text/css">
 <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- jQuery library -->
@@ -13,17 +15,46 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <title>ERIC GRIMARD</title>
+
 </head>
 <body>
 <div class="container" id="main">
-	<div class="row" id="title">
-		<h1>Eric Grimard</h1>
-		<h4>Software Engineering Student</h4>
+	<div class="row">
+		<div class="col-md-12" id="title">
+			<h1>Eric Grimard</h1>
+			<h4>Software Engineering Student</h4>
+		</div>
+	</div>
+	<div class="row" style="height:10px;">
 	</div>
 	<div class="row">
+		<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Home</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">About Me</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Experience</a></li>
+					<li><a href="#">Education</a></li>
+				</ul>
+		</nav>
 	</div>
+	<div class="row" id="content">
+		<div class="col-md-3">
+			<img src="personalpicture.png" style="width:100%">
+		</div>
+		<div class="col-md-9">
+            <p>Greetings and welcome to my personal career website.<p>
+		</div>
+		
+	</div>
+
 </div>
+
+
 
 </body>
 </html>
