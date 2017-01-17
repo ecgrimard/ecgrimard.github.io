@@ -37,6 +37,7 @@ $(document).ready(function(){
                 console.log('success'); 
                 $('#formBlock').hide();
                 $('#thankyouBlock').show();
+				alert("success");
             }   
 
         });     
