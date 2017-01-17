@@ -41,4 +41,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1ba2227', e
 	margin-left:2%;
 	margin-right:2%;
 }
+p.logoImage
+{
+	text-align:center;
+}
 
